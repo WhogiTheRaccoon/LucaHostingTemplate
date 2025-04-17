@@ -42,8 +42,8 @@ Steps To Install:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/WhogiTheRaccoon/LucaHostingWebsiteTemplate.git
-    cd HostingWebsiteTemplate
+    git clone https://github.com/WhogiTheRaccoon/LucaHostingTemplate.git
+    cd LucaHostingTemplate
     ```
 
 2. Install dependencies:

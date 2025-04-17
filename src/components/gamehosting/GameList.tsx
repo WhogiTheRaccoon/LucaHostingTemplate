@@ -17,28 +17,23 @@ export default function GameList({ data }: GameListProps) {
         const query = searchQuery.toLowerCase();
     
         return data?.filter(({ name, tags = [], altNames = "", price }) => {
-            const matchesQuery = [name, ...tags, altNames].some((text) =>
-                text.toLowerCase().includes(query)
-            );
+            const searchableText = [name, altNames, ...tags].join(" ").toLowerCase();
+            if (!searchableText.includes(query)) return false;
     
-            if (!matchesQuery) return false;
+            const normalizedTags = tags.map((t: string) => t.toLowerCase());
     
-            switch (filterType) {
-                case "free":
-                    return price === 0;
-                case "premium":
-                    return price > 0;
-                case "popular":
-                    return tags.map((t: string) => t.toLowerCase()).includes("popular");
-                case "sandbox":
-                    return tags.map((t: string) => t.toLowerCase()).includes("sandbox");
-                case "shooter":
-                    return tags.map((t: string) => t.toLowerCase()).includes("shooter");
-                default:
-                    return true;
-            }
+            const filterMap: Record<string, () => boolean> = {
+                free: () => price === 0,
+                premium: () => price > 0,
+                popular: () => normalizedTags.includes("popular"),
+                sandbox: () => normalizedTags.includes("sandbox"),
+                shooter: () => normalizedTags.includes("shooter"),
+            };
+    
+            return filterMap[filterType]?.() ?? true;
         });
     }, [searchQuery, data, filterType]);
+    
 
     const icons: Record<string, React.ElementType> = {
         FaceSmileIcon: FaceSmileIcon,

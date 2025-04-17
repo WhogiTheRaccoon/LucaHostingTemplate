@@ -1,0 +1,146 @@
+
+[
+    {
+        "name": "Minecraft Free",
+        "image": "/images/games/minecraft.webp",
+        "price": 0,
+        "altNames": "mc",
+        "tags": ["free", "sandbox", "survival", "popular"],
+        "link": "https://freepanel.sanoservers.com/servers/create"
+    },
+    {
+        "name": "Garry's Mod Free",
+        "image": "/images/games/gmod.webp",
+        "price": 0,
+        "altNames": "gmod garrys",
+        "tags": ["free", "sandbox", "popular"],
+        "link": "https://freepanel.sanoservers.com/servers/create"
+    },
+    {
+        "name": "Discord Bot Free",
+        "image": "/images/games/discord.webp",
+        "price": 0,
+        "altNames": "discord bot python javascript node",
+        "tags": ["free", "bot", "popular"],
+        "link": "https://freepanel.sanoservers.com/servers/create"
+    },
+    {
+        "name": "Minecraft",
+        "image": "/images/games/minecraft.webp",
+        "price": 5,
+        "badge": {
+            "text": "Most Popular",
+            "color": "bg-green-700",
+            "icon": "ExclamationCircleIcon"
+        },
+        "altNames": "mc",
+        "tags": ["sandbox", "survival", "popular"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=8"
+    },
+    {
+        "name": "Palworld",
+        "image": "/images/games/palworld.webp",
+        "price": 5,
+        "tags": ["sandbox", "survival", "shooter"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=10"
+    },
+    {
+        "name": "Abiotic Factor",
+        "image": "/images/games/abioticfactor.webp",
+        "price": 5,
+        "badge": {
+            "text": "Staff Favorite",
+            "color": "bg-accent",
+            "icon": "FaceSmileIcon"
+        },
+        "tags": ["sandbox", "survival", "shooter"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=17"
+    },
+    {
+        "name": "Terraria",
+        "image": "/images/games/terraria.webp",
+        "price": 5,
+        "altNames": "tmod tmodloader",
+        "tags": ["sandbox", "survival"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=18"
+    },
+    {
+        "name": "Garry's Mod",
+        "image": "/images/games/gmod.webp",
+        "price": 5,
+        "badge": {
+            "text": "Most Popular",
+            "color": "bg-green-700",
+            "icon": "ExclamationCircleIcon"
+        },
+        "altNames": "gmod garrys",
+        "tags": ["sandbox", "survival", "popular"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=5"
+    },
+    {
+        "name": "SCP: Secret Laboratory",
+        "image": "/images/games/scp.webp",
+        "price": 5,
+        "altNames": "scp secret lab, peanut",
+        "tags": ["survival", "shooter"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=16"
+    },
+    {
+        "name": "Barotrauma",
+        "image": "/images/games/barotrauma.webp",
+        "price": 5,
+        "tags": ["survival", "shooter"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=9"
+    },
+    {
+        "name": "Discord Bot",
+        "image": "/images/games/discord.webp",
+        "price": 5,
+        "altNames": "discord bot python javascript node",
+        "tags": ["bot", "popular"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=20"
+    },
+    {
+        "name": "Counter Strike 2",
+        "image": "/images/games/csgo.webp",
+        "price": 5,
+        "altNames": "csgo cs2 counterstrike strike counter",
+        "tags": ["shooter"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=21"
+    },
+    {
+        "name": "Valheim",
+        "image": "/images/games/valheim.webp",
+        "price": 5,
+        "tags": ["sandbox", "survival"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=22"
+    },
+    {
+        "name": "Dont Starve Together",
+        "image": "/images/games/dst.webp",
+        "price": 5,
+        "tags": ["sandbox", "survival"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=23"
+    },
+    {
+        "name": "Unturned",
+        "image": "/images/games/unturned.webp",
+        "price": 5,
+        "tags": ["sandbox", "survival", "shooter"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=24"
+    },
+    {
+        "name": "Satisfactory",
+        "image": "/images/games/satisfactory.webp",
+        "price": 5,
+        "tags": ["sandbox"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=26"
+    },
+    {
+        "name": "Factorio",
+        "image": "/images/games/factorio.webp",
+        "price": 5,
+        "tags": ["sandbox"],
+        "link": "https://billing.sanoservers.com/order/config/index/store/?group_id=3&pricing_id=27"
+    }
+]

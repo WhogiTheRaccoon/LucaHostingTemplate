@@ -1,4 +1,4 @@
-# LucaHostingWebsiteTemplate
+# LucaHostingTemplate
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Welcome to the LucaHostingWebsiteTemplate! This Next.js project provides a clean and customizable starting point for building a hosting provider website. It’s designed to be simple, responsive, and SEO-optimized, so you can quickly launch a professional hosting site. Perfect for businesses offering web hosting, game services, or cloud solutions. This is my first nextjs (and react) project, so If you have any comments, suggestions or improvements, please let me know.
+Welcome to the LucaHostingTemplate! This Next.js project provides a clean and customizable starting point for building a hosting provider website. It’s designed to be simple, responsive, and SEO-optimized, so you can quickly launch a professional hosting site. Perfect for businesses offering web hosting, game services, or cloud solutions. This is my first nextjs (and react) project, so If you have any comments, suggestions or improvements, please let me know.
 
 Please note this project uses tailwindcss4 and nextjs app router not the pages router. 
 
@@ -42,8 +42,8 @@ Steps To Install:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/WhogiTheRaccoon/LucaHostingWebsiteTemplate.git
-    cd HostingWebsiteTemplate
+    git clone https://github.com/WhogiTheRaccoon/LucaHostingTemplate.git
+    cd LucaHostingTemplate
     ```
 
 2. Install dependencies:
